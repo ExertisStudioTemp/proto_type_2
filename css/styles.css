@@ -1,0 +1,326 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+	font-family: helvetica;
+	color: #ffffff;
+}
+
+body{
+   background: url(../images/full_width.JPG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+
+header{
+	width: 100%;
+	height: 80px;
+	background-color: rgba(0, 0, 0, 0.9);
+background: rgba(0, 0, 0, 0.9);
+color: rgba(0, 0, 0, 0.9);
+}
+
+header section{
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px 0px 5px 0px;
+}
+
+header h1{
+	float: right;
+	padding-top: 15px;
+	font-weight: 900;
+}
+
+.intro{
+	font-size: 68px;
+	width: 60%;
+	font-weight: 900;
+	letter-spacing: -5px;
+    text-shadow: -4px 4px 5px rgba(150, 150, 150, 0.57);
+    padding-top: 65px;
+}
+
+footer{
+	margin-top:60px;
+	clear: both;
+
+}
+
+footer p{
+	font-size: 36px;
+	display: inline;
+	padding-right: 20px;
+	font-weight: 900;
+	letter-spacing: -1px;
+	border-top: 3px solid #fff;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.shuttle{
+	margin: 0 auto;
+	margin-top: 60px;
+	width: 100%;
+	height: 400px;
+	background-color: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.2);
+}
+
+/******* LOADED PAGE STYELES *********/
+
+.about_wrapper{
+	padding: 25px;
+}
+
+.about_wrapper a{
+	clear: both;
+	float: left;
+	text-decoration: none;
+	color: white;
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.little_wrapper{
+	width: 65%;
+	float: left;
+}
+
+.little_wrapper p{
+font-size: 18px;
+line-height: 22px;
+margin-top: 5px;
+}
+
+.little_wrapper h2{
+line-height: 22px;
+padding-bottom: 10px;
+}
+
+.about_wrapper img{
+	float: right;
+	width: 30%;
+	border: 5px solid #ffffff;
+}
+
+/******* LOADED PAGE STYELES *********/
+
+
+@media (min-width: 959px) and (max-width: 1240px) {
+
+	.intro{
+	font-size: 64px;
+	width: 80%;
+	font-weight: 900;
+	letter-spacing: -3px;
+    padding-top: 65px;
+}
+
+footer{
+	margin-top:120px;
+}
+
+footer p{
+	font-size: 28px;
+	padding-right: 18px;
+	margin-right: 10px;
+}
+
+.about_wrapper img{
+	float: right;
+	width: 28%;
+	border: 5px solid #ffffff;
+}
+
+.little_wrapper{
+	width: 70%;
+	float: left;
+}
+
+.little_wrapper p{
+font-size: 16px;
+line-height: 20px;
+margin-top: 5px;
+padding-right: 15px;
+}
+
+.little_wrapper h2{
+	font-size: 20px;
+line-height: 22px;
+padding-bottom: 8px;
+}
+
+.about_wrapper a{
+    margin-top: 5px;
+	font-size: 16px;
+}
+
+}/******** END MIN-WIDTH 959 MAX-WIDTH 1240 MEDIA *********/
+
+@media (min-width: 500px) and (max-width: 958px) {
+	
+		.intro{
+	font-size: 52px;
+	width: 100%;
+	font-weight: 900;
+	letter-spacing: -3px;
+    padding-top: 90px;
+}
+
+footer{
+	margin-top:100px;
+}
+
+footer p{
+	font-size: 24px;
+	display: block;
+	text-align: center;
+	
+}
+
+.shuttle{
+	height: 800px;
+}
+
+.about_wrapper img{
+    float: none;
+	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.little_wrapper{
+	float: none;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.little_wrapper p{
+font-size: 16px;
+line-height: 20px;
+margin-top: 10px;
+text-align: center;
+padding: 0px;
+
+}
+
+.little_wrapper h2{
+	font-size: 24px;
+line-height: 22px;
+padding-bottom: 8px;
+text-align: center;
+}
+
+.about_wrapper a{
+    margin-top: 5px;
+	font-size: 16px;
+	float: right;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+}/* end media */
+
+@media (min-width: 300px) and (max-width: 499px) {
+
+		.intro{
+	font-size: 42px;
+	width: 100%;
+	font-weight: 900;
+	letter-spacing: -1px;
+    padding-top: 70px;
+    text-align: center;
+}
+
+footer{
+	margin-top:100px;
+}
+
+footer p{
+	font-size: 24px;
+	display: block;
+	text-align: center;
+	
+}
+
+.shuttle{
+	height: 870px;
+}
+
+.about_wrapper img{
+    float: none;
+	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.little_wrapper{
+	float: none;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.little_wrapper p{
+font-size: 16px;
+line-height: 20px;
+margin-top: 10px;
+text-align: center;
+padding: 0px;
+
+}
+
+.little_wrapper h2{
+	font-size: 24px;
+line-height: 22px;
+padding-bottom: 8px;
+text-align: center;
+}
+
+.about_wrapper a{
+    margin-top: 5px;
+	font-size: 16px;
+	float: right;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+header h1{
+	visibility: hidden;
+}
+
+header img{
+	float: none;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+}
+
+
+
+
+
+
+
+
+
